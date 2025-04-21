@@ -11,7 +11,7 @@ public class javamongo {
 
     public static void main(String[] args) {
         // MongoDB Atlas connection string
-        String connectionString = "mongodb+srv://bharat:kushwah@cluster0.79jr2.mongodb.net/dataStudy?retryWrites=true&w=majority";
+        String connectionString = "";
         
         try (MongoClient mongoClient = MongoClients.create(connectionString)) {
             System.out.println("Connected to MongoDB Atlas successfully!");
